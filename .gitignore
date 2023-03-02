@@ -1,0 +1,10 @@
+*.sublime-workspace
+*.sublime-project
+log
+_min-*.*
+--min*.*
+--dev-*.*
+*.bak
+*.log
+pulse-*.*
+server.json
