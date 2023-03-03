@@ -73,7 +73,7 @@ class okPeerServer extends okserver.OKServer {
 	}
 
 	#initPeerHub( server ) {
-		const PeerHub = require("../ok-peerhub");
+		const PeerHub = require("ok-peerhub");
 		this.peerHub = new PeerHub({
 			httpServer: server,
 			deboutEnabled: this.options.deboutEnabled,
